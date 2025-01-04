@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Floating UI</title>
+  </head>
+  <body>
+    <div id="floating-ui">
+      <div id="header">
+        <select id="theme-selector">
+          <option value="theme1">Theme 1</option>
+          <option value="theme2">Theme 2</option>
+          <option value="theme3">Theme 3</option>
+          <option value="theme4">Theme 4</option>
+          <option value="theme5">Theme 5</option>
+        </select>
+        <span class="jarvis-right">
+          <span class="jarvis-upper">JAR</span><span class="jarvis-lower">VIS</span>
+        </span>
+      </div>
+      <div id="gif-container">
+        <img id="gif-display" src="assets/theme1.gif" alt="GIF">
+      </div>
+      <div id="controls">
+        <button id="mute-button">
+          <img src="assets/mute.png" alt="Mute">
+        </button>
+        <button id="speaker-button">
+          <img src="assets/speaker.png" alt="Speaker">
+        </button>
+      </div>
+      <div id="answer-container">
+        <p id="answer-text">Your answers will appear here.</p>
+      </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
